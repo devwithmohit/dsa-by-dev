@@ -8,7 +8,7 @@ public class Question3 {
         int mid = 0;
         int high = arr1.length - 1;
         while (mid <= high) {
-            System.out.println("mid = " + mid + ", arr1[mid] = " + arr1[mid]);
+            // System.out.println("mid = " + mid + ", arr1[mid] = " + arr1[mid]);
             if (arr1[mid] == 0) {
                 int temp = arr1[low];
 
