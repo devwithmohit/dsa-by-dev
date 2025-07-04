@@ -2,6 +2,7 @@ public class String7 {
     public static void main(String[] args) {
         // -Substring = A continuous block of characters in a string.
         // Examples:
+        // order matter karta hai 
 
         // String: "abcde"
 
