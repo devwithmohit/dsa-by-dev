@@ -1,6 +1,6 @@
 public class Array6 {
     public static void main(String1[] args) {
-        // Differnc Array -Tumhare paas ek array hai, aur tum multiple baar range me +k
+        // Differnce Array -Tumhare paas ek array hai, aur tum multiple baar range me +k
         // add karna chahte ho.
         int count = 5;
         int[] arr = new int[count];

@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Question3 {
     // ✅ Sort array with 0,1,2 (Already done — Dutch National Flag)
-    public static void main(String1[] args) {
+    public static void main(String[] args) {
         int[] arr1 = { 2, 2, 0, 0, 1, 1 };
         int low = 0;
         int mid = 0;
@@ -18,6 +18,7 @@ public class Question3 {
                 mid++;
             } else if (arr1[mid] == 1) {
                 mid++;
+
             } else {
                 // arr1[mid] == 2
                 int temp = arr1[mid];
@@ -25,7 +26,6 @@ public class Question3 {
                 arr1[high] = temp;
                 high--;
             }
-
         }
         System.out.println(Arrays.toString(arr1));
 

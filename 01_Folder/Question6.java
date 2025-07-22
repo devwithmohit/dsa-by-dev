@@ -19,7 +19,7 @@ public class Question6 {
             if (arr1[i] < arr2[j]) {
                 System.out.println(arr1[i++] + "");
             } else if (arr1[i] > arr2[j]) {
-                System.out.println(arr1[j++] + "");
+                System.out.println(arr2[j++] + "");
 
             } else {
                 System.out.print(arr1[i] + " ");
@@ -53,3 +53,15 @@ public class Question6 {
 
     }
 }
+// 🔍 Step-by-step:
+// i = 0
+
+// Line A: arr1[i++]
+
+// Pehle arr1[0] print hota hai → 10
+
+// Then i++ → i becomes 1
+
+// Line B: arr1[i] → ab i = 1 hai
+
+// So print → arr1[1] = 20

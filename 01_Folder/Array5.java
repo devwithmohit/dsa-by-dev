@@ -11,7 +11,8 @@ public class Array5 {
             prefix[i] = prefix[i - 1] + arr[i];
 
         }
-        // Step 2: Subarray Sum Query (L to R)
+        // Step 2: Query sum from index L to R
+        // agr kisi specified index tak ka sum chaiye
         int L = 1;
         int R = 3;
         int sum = prefix[R] - (L > 0 ? prefix[L - 1] : 0);

@@ -1,5 +1,5 @@
 public class Array10 {
-    public static void main(String1[] args) {
+    public static void main(String[] args) {
         // 2. Row-wise & Column-wise Sorted Matrix
         // Matrix is sorted:
 
